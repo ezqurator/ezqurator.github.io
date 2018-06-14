@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Bywcio Simulator</title>
+
+    <style>
+        nav#menu {
+            margin-top: 24px;
+        }
+
+        nav#menu>a {
+            text-decoration: none;
+            background: red;
+            color: white;
+            padding: 10px;
+            font-size: 25px;
+            border-radius: 5px;
+        }
+
+        nav#menu>a:hover {
+            background-color: black;
+        }
+
+        nav#menu>a:active {
+            background-color: green;
+        }
+        
+        body {
+            background-image: url(byc.png);
+        }
+
+    </style>
+
+    <script>
+        var beep5 = new Audio();
+        beep5.src = 'wicia.mp3';
+
+    </script>
+
+</head>
+
+<body>
+
+    <nav id="menu">
+
+        <a href="#" onmousedown="beep5.play();">Press to WICIAAAA</a>
+    </nav>
+
+
+</body>
+
+</html>
