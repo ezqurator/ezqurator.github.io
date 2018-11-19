@@ -1,0 +1,62 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+h1 {
+    text-align: center;
+	font-family: 'Satisfy', cursive;
+	
+}
+
+p {
+	text-align: center;
+	font-family: 'Kaushan Script', cursive;
+	font-size: 30px;
+}
+
+html {
+	min-height:100%;
+}
+
+body {
+	min-height: 100vh;
+}
+
+.lewy {
+	float: left;
+	width: 20%;
+	height:100vh;
+}
+
+.glowny {
+	background-image: linear-gradient(to bottom, rgba(255,0,0,0), rgb(89, 149, 230));
+	
+	width:10px;
+	float: left;
+	width: 60%;
+	height: 100vh;
+}
+
+.prawy {
+	float: right;
+	width: 20%;
+	height:100vh;
+}
+
+img {
+	width: 70vh;
+	height: 40vh;
+	border-radius: 20% 10%;
+	opacity: 0.8;
+}
+
+
+
+
+
+
+rgb(17, 132, 200)
+rgba(255, 175, 176)
+rgb(122, 169, 235)
+rgb(100, 155, 232)
