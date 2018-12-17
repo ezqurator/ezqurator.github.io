@@ -64,6 +64,10 @@ img {
     background: gray;
 }
 
+.tutaj {
+    color: black;
+}
+
 /*@media (min-width:400px) {
 	img{
 		width: 300px;
