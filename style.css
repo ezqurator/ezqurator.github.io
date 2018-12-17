@@ -45,8 +45,8 @@ body {
 }
 
 img {
-	width: 70vh;
-	height: 40vh;
+	width: 70px;
+	height: 40px;
 	border-radius: 20% 10%;
 	opacity: 0.8;
 }
