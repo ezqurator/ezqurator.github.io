@@ -68,11 +68,22 @@ img {
     color: black;
 }
 
-@media (min-width:400px and max-width:1000px) {
-	img{
-		width: 300px;
-	height: 150px;
+@media (max-width:800px) {
+    img{
+        display: none;
     }
+    .glowny {
+        width: 100%;
+    }
+    
+    .prawy {
+        display: none;
+    }
+    
+    .lewy {
+        display: none;
+    }
+    
 }
 
 
